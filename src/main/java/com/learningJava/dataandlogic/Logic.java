@@ -13,25 +13,25 @@ public class Logic {
 
 
         //pointers vs values
-        if (myFirstShirt.equals(mySecondShirt)) {
-            System.out.println("The shirts are equal");
+        if (myFirstShirt.getColor() == mySecondShirt.getColor()) {
+            System.out.println("The shirts colors are equal");
         } else {
-            System.out.println("the shirts are not equal");
+            System.out.println("the shirts colors are not equal");
         }
 
 
         switch (myFirstShirt.getSize()) {
             case SMALL -> {
-                System.out.println("the fisrt shirt is small");
+                System.out.println("the first shirt is small");
             }
             case MEDIUM -> {
-                System.out.println("the fisrt shirt is medium");
+                System.out.println("the firstt shirt is medium");
             }
             case LARGE -> {
-                System.out.println("the fisrt shirt is large");
+                System.out.println("the first shirt is large");
             }
             case XLARGE -> {
-                System.out.println("the fisrt shirt is extra large");
+                System.out.println("the first shirt is extra large");
             }
         }
 
@@ -42,10 +42,15 @@ public class Logic {
             i = i+1;
         }
 
+        System.out.println();
+
         int l = 0;
         do {
            System.out.println(l);
+           l++;
         } while (l < 10);
+
+        System.out.println();
 
         for (int j = 0; j < 10; j++) {
             System.out.println(j);
