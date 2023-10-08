@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"id":"d87e95cb6aaebffc","type":"file","file":"Concepts/Classes.md","x":-600,"y":-180,"width":400,"height":126},
+		{"id":"f92d3d62132a2f61","type":"file","file":"Concepts/Objects.md","x":0,"y":-340,"width":400,"height":120},
+		{"id":"3c2899e393bd397c","type":"file","file":"Concepts/Entities.md","x":0,"y":-550,"width":400,"height":110},
+		{"id":"7ba7c9b49b2065a3","type":"file","file":"Concepts/Pointers.md","x":0,"y":-760,"width":400,"height":117},
+		{"id":"d3e25dd570f94092","type":"file","file":"Concepts/Methods.md","x":-600,"y":62,"width":400,"height":117},
+		{"id":"d2c2bd529b58dfec","type":"file","file":"Concepts/Access Modifiers.md","x":-140,"y":140,"width":400,"height":120},
+		{"id":"e2c9148ae8284af4","type":"file","file":"Concepts/Names.md","x":-140,"y":300,"width":400,"height":120},
+		{"id":"8a11b5fa4bafbb33","type":"file","file":"Concepts/Data Types.md","x":-140,"y":460,"width":400,"height":220},
+		{"id":"db40249e631d91b4","type":"file","file":"Concepts/Return statements.md","x":-140,"y":720,"width":400,"height":120},
+		{"id":"68cd069328ac33f9","type":"file","file":"Concepts/Main Methods.md","x":-1220,"y":-54,"width":400,"height":119},
+		{"id":"e6c9608b8665295a","type":"file","file":"Concepts/Constructors.md","x":-1220,"y":170,"width":400,"height":130},
+		{"id":"90a3540e050bac35","type":"file","file":"Concepts/Bodies.md","x":-140,"y":900,"width":400,"height":100},
+		{"id":"8844c8431b9be511","type":"file","file":"Concepts/Bodies.md","x":0,"y":-139,"width":400,"height":119},
+		{"id":"de5e0fcc8d75f275","type":"file","file":"Concepts/Primitives.md","x":-600,"y":-1180,"width":400,"height":580},
+		{"id":"6e91d896695c2d9f","type":"file","file":"Concepts/Data Types.md","x":-600,"y":-530,"width":400,"height":100},
+		{"id":"8cf02b087b9da67f","type":"file","file":"Concepts/Non-Primitive Data Types.md","x":-1120,"y":-495,"width":400,"height":290},
+		{"id":"3f423f8e15e735b8","type":"file","file":"Concepts/Naming Conventions.md","x":-1080,"y":-760,"width":400,"height":183},
+		{"id":"58562f0853b2ae1b","x":-820,"y":360,"width":400,"height":1140,"type":"file","file":"Concepts/OOP Concepts.md"}
+	],
+	"edges":[
+		{"id":"25c9c418dcba9303","fromNode":"f92d3d62132a2f61","fromSide":"left","toNode":"6e91d896695c2d9f","toSide":"right","label":"Instances of"},
+		{"id":"8ac50d03a15797a4","fromNode":"d87e95cb6aaebffc","fromSide":"left","toNode":"8cf02b087b9da67f","toSide":"bottom","label":"Type of"},
+		{"id":"10ff9e0703d73a31","fromNode":"7ba7c9b49b2065a3","fromSide":"bottom","toNode":"3c2899e393bd397c","toSide":"top","label":"Point to"},
+		{"id":"aca8e0765d2ed42b","fromNode":"3c2899e393bd397c","fromSide":"bottom","toNode":"f92d3d62132a2f61","toSide":"top","label":"Are"},
+		{"id":"7ed97f7f41e0bba8","fromNode":"d87e95cb6aaebffc","fromSide":"bottom","toNode":"d3e25dd570f94092","toSide":"top","label":"Have"},
+		{"id":"3e097ad8d0882f55","fromNode":"d3e25dd570f94092","fromSide":"bottom","toNode":"d2c2bd529b58dfec","toSide":"left","label":"Have"},
+		{"id":"15bd25484db80fdc","fromNode":"d3e25dd570f94092","fromSide":"bottom","toNode":"8a11b5fa4bafbb33","toSide":"left","label":"Have"},
+		{"id":"9d258ad5aff832e2","fromNode":"d3e25dd570f94092","fromSide":"bottom","toNode":"e2c9148ae8284af4","toSide":"left","label":"Have"},
+		{"id":"11fc3f16cae6336d","fromNode":"d3e25dd570f94092","fromSide":"bottom","toNode":"db40249e631d91b4","toSide":"left","label":"Have"},
+		{"id":"b0d37736c0646f50","fromNode":"68cd069328ac33f9","fromSide":"right","toNode":"d3e25dd570f94092","toSide":"left","label":"Special case"},
+		{"id":"2e22c8f53a569c48","fromNode":"e6c9608b8665295a","fromSide":"right","toNode":"d3e25dd570f94092","toSide":"left","label":"Special case"},
+		{"id":"1f44cf42c2c6c3a0","fromNode":"d3e25dd570f94092","fromSide":"bottom","toNode":"90a3540e050bac35","toSide":"left","label":"Have"},
+		{"id":"853a7f0a510a9f06","fromNode":"f92d3d62132a2f61","fromSide":"bottom","toNode":"8844c8431b9be511","toSide":"top","label":"Have"},
+		{"id":"45a045d995454c83","fromNode":"f92d3d62132a2f61","fromSide":"left","toNode":"d3e25dd570f94092","toSide":"right","label":"Have"},
+		{"id":"c761a7870e67413b","fromNode":"de5e0fcc8d75f275","fromSide":"bottom","toNode":"6e91d896695c2d9f","toSide":"top","label":"Type of"},
+		{"id":"533f8ee84e5f482b","fromNode":"8cf02b087b9da67f","fromSide":"right","toNode":"6e91d896695c2d9f","toSide":"left","label":"Type of"}
+	]
+}

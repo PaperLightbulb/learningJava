@@ -1,0 +1,3 @@
+- Strings (like groups of characters strung together)  
+- Arrays (like groupings of data of other types)  
+- Classes (like templates for objects that we create)

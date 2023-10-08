@@ -1,0 +1,91 @@
+- Java
+	- Hello World
+	- Data types
+		- Boolean
+		- Integer, Float, Long
+		- Char
+		- String
+		- Name format conventions
+			- https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html
+	- Pointers VS. Values
+	- Logic
+		- if
+		- if else
+		- while
+		- do while
+		- for
+		- Switch
+		- break
+		- continue
+		- Equality
+	- Methods
+		- Access modifier
+		- Type
+		- Name
+		- Arguments
+		- Body
+		- Return statements
+		- Main Method
+			- Special case
+	- Arrays
+		- 2d arrays
+	- ArrayLists
+		- 2d arraylists
+	- Basic iteration
+	- Objects
+		- Classes
+		- Datatypes
+		- Instances
+		- Methods
+		- Constructors
+			- Access modifier
+			- Type
+			- Name
+			- Arguments
+			- Body
+		- Static classes
+	- OOP concepts
+		- Abstraction
+		- Encapsulation
+		- Inheritance
+		- Interfaces
+		- Polymorphism
+		- Association
+		- Aggregation
+			-  HAS-A relationship vs IS-A relationship
+		- Decoupling
+		- Packages
+		- Delegation
+	-  Tools
+		- IDE
+			- IntelliJ?
+			- Visual Studio?
+		- Build tools
+			- Maven
+				- Dependencies
+			- Gradle
+		- Git
+			- GitHub
+		- Spring framework
+			- Spring Boot
+		- Testing 
+			- JUnit
+	- Basic data structures
+		- Stack
+		- Queue
+		- Linked list
+		- Doubly linked list
+	- Iterators
+	- Collections, Hashtables
+	- Generics 
+		- class className\<T\> {
+		 T obj;
+		 }
+	- Exception handling
+		- Throw
+		- Throws
+		- Try catch
+	- File I/O
+		- FileInputStream.read()
+		- FileOutputStream.write()
+		- File file = new File("Filepath");

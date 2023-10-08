@@ -1,0 +1,23 @@
+- Abstraction  
+  - hide irrelevant details  
+  - show the user (and other programmers) only what they need to see  
+- Encapsulation  
+  - keep data and methods related to that data together and segregated from the rest of your code  
+  - make it so code isnt overly dependent on other bits of code  
+- Inheritance  
+  - classes can inherit from other classes and use them as a base to build upon  
+- Interfaces  
+  - interfaces are the public methods of a class  
+  - they are what the rest of the program interacts with  
+- Polymorphism  
+  - you can have multiple methods of the same name with different arguments to accomidate a range onf scenarios  
+- Association  
+  - how closely one class is associate with another is how interconnected they are  
+  - generally, we want to limit over association  
+- Aggregation  
+  - HAS-A relationship  
+  - one class has an instacne of another class inside it  
+- Decoupling  
+  - the process of speperating the inner workings of classes and only letting them interact through public method headers  
+- Packages  
+  - groupings of classes that can interact more closely
