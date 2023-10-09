@@ -1,4 +1,4 @@
-package com.learningJava.objects.pens;
+package com.learningJava.seen.objects.pens;
 
 public class Pen {
     protected int length;

@@ -1,4 +1,4 @@
-package com.learningJava.helloworld;
+package com.learningJava.seen.helloworld;
 
 public class HelloWorld {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.learningJava.dataandlogic;
+package com.learningJava.seen.dataandlogic;
 
 public class DataTypes {
     public static void main(String[] args) {

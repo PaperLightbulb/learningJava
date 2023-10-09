@@ -1,7 +1,7 @@
-package com.learningJava.objects.pendriver;
+package com.learningJava.seen.objects.pendriver;
 
-import com.learningJava.objects.pens.Micron;
-import com.learningJava.objects.pens.Pen;
+import com.learningJava.seen.objects.pens.Micron;
+import com.learningJava.seen.objects.pens.Pen;
 
 public class PenDriver {
     public static void main(String[] args) {

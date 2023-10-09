@@ -1,4 +1,4 @@
-package com.learningJava.objects.pens;
+package com.learningJava.seen.objects.pens;
 
 public class Micron extends Pen{
     protected String color;

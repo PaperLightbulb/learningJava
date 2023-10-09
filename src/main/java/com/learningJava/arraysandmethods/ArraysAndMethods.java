@@ -1,6 +1,6 @@
 package com.learningJava.arraysandmethods;
 
-import com.learningJava.dataandlogic.Shirt;
+import com.learningJava.seen.dataandlogic.Shirt;
 
 import java.util.ArrayList;
 
