@@ -17,7 +17,7 @@
 		{"id":"6e91d896695c2d9f","type":"file","file":"Concepts/Data Types.md","x":-600,"y":-530,"width":400,"height":100},
 		{"id":"8cf02b087b9da67f","type":"file","file":"Concepts/Non-Primitive Data Types.md","x":-1120,"y":-495,"width":400,"height":290},
 		{"id":"3f423f8e15e735b8","type":"file","file":"Concepts/Naming Conventions.md","x":-1080,"y":-760,"width":400,"height":183},
-		{"id":"58562f0853b2ae1b","x":-820,"y":360,"width":400,"height":1140,"type":"file","file":"Concepts/OOP Concepts.md"}
+		{"id":"58562f0853b2ae1b","type":"file","file":"Concepts/OOP Concepts.md","x":-820,"y":360,"width":400,"height":1200}
 	],
 	"edges":[
 		{"id":"25c9c418dcba9303","fromNode":"f92d3d62132a2f61","fromSide":"left","toNode":"6e91d896695c2d9f","toSide":"right","label":"Instances of"},
@@ -35,6 +35,7 @@
 		{"id":"853a7f0a510a9f06","fromNode":"f92d3d62132a2f61","fromSide":"bottom","toNode":"8844c8431b9be511","toSide":"top","label":"Have"},
 		{"id":"45a045d995454c83","fromNode":"f92d3d62132a2f61","fromSide":"left","toNode":"d3e25dd570f94092","toSide":"right","label":"Have"},
 		{"id":"c761a7870e67413b","fromNode":"de5e0fcc8d75f275","fromSide":"bottom","toNode":"6e91d896695c2d9f","toSide":"top","label":"Type of"},
-		{"id":"533f8ee84e5f482b","fromNode":"8cf02b087b9da67f","fromSide":"right","toNode":"6e91d896695c2d9f","toSide":"left","label":"Type of"}
+		{"id":"533f8ee84e5f482b","fromNode":"8cf02b087b9da67f","fromSide":"right","toNode":"6e91d896695c2d9f","toSide":"left","label":"Type of"},
+		{"id":"a39b5fa3eae23167","fromNode":"d87e95cb6aaebffc","fromSide":"top","toNode":"6e91d896695c2d9f","toSide":"bottom","label":"Type of"}
 	]
 }
