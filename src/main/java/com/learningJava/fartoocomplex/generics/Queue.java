@@ -1,4 +1,4 @@
-package com.learningJava.generics;
+package com.learningJava.fartoocomplex.generics;
 
 import java.util.EmptyStackException;
 import java.util.List;

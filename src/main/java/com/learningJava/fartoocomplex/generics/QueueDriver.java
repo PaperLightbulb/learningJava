@@ -1,4 +1,4 @@
-package com.learningJava.generics;
+package com.learningJava.fartoocomplex.generics;
 
 public class QueueDriver {
     public static void main(String[] args) {

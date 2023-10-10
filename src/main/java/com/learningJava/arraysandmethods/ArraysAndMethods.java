@@ -12,7 +12,7 @@ public class ArraysAndMethods {
                 35,
                 23,
                 236,
-                624
+                624,
         };
 
         for (int i = 0; i < intergers.length; i++) {

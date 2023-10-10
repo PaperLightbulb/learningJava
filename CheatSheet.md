@@ -56,6 +56,9 @@ optional, makes available directly from class without instantiating as object bu
 ### ClassName
 the name you will refer to this class by
 
+### attributes
+class variables
+
 ## making a method within a class
 
 visiblity static returnType methodName(ArgumentTypes arguments){
