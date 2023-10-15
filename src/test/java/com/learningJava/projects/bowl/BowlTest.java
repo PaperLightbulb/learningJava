@@ -1,7 +1,6 @@
-package com.learningJava.bowl;
+package com.learningJava.projects.bowl;
 
-import jakarta.annotation.security.RunAs;
-import org.atmosphere.interceptor.AtmosphereResourceStateRecovery;
+import com.learningJava.projects.bowl.Bowl;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,4 +1,4 @@
-package com.learningJava.bowl;
+package com.learningJava.projects.bowl;
 
 public class Bowl {
     // TODO Create public int variables radius, height,
