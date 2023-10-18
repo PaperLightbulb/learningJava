@@ -10,14 +10,14 @@ class BowlTest {
 
     @Test
     public void testRadius() {
-        assertEquals(5, bowl.radius);
+        assertEquals(5, bowl.getRadius());
     }
     @Test
     public void testHeight() {
-        assertEquals(7, bowl.height);
+        assertEquals(7, bowl.getHeight());
     }
     @Test
     public void testMaterial() {
-        assertEquals("Glass", bowl.material);
+        assertEquals("Glass", bowl.getMaterial());
     }
 }
