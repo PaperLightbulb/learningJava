@@ -1,7 +1,7 @@
 package com.learningJava.backend.components;
 
-import com.Webst2.backend.Constants;
-import com.Webst2.backend.tools.CloudStorage;
+import com.learningJava.backend.Constants;
+import com.learningJava.backend.tools.CloudStorage;
 import com.vaadin.flow.component.button.Button;
 
 public class DeleteAllButton extends Button {

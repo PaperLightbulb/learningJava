@@ -5,6 +5,6 @@ RUN mvn clean package -DskipTests
 
 FROM openjdk:17.0.1-jdk-slim
 WORKDIR /
-COPY --from=build /a/target/Webst2-0.1.0.jar Webst2.jar
+COPY --from=build /a/target/learningJava-0.9.1-SNAPSHOT.jar learningJava.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar", "Webst2.jar"]
+ENTRYPOINT ["java","-jar", "learningJava.jar"]

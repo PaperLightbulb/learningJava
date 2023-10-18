@@ -1,6 +1,6 @@
 package com.learningJava.backend.components;
 
-import com.Webst2.backend.tools.MarkdownHTMLParser;
+import com.learningJava.backend.tools.MarkdownHTMLParser;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.Tag;
 
