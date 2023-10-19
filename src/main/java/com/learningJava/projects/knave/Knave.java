@@ -10,6 +10,6 @@ public class Knave {
     // TODO private enum Career that has a randCareer method
     // TODO private Career array careers
     // TODO private Item array items
-    // TODO constructor that sets stats, level, xp, careers, if has int then spellbook for each point, fill empty spots in inventory with random items
+    // TODO constructor that sets stats, level, xp, careers, if has int then spellbook for each point, fill empty spots in inventory with items
     // TODO toString method that prints useful info about the knave
 }
