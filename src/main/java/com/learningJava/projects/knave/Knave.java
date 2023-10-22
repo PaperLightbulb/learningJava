@@ -1,13 +1,13 @@
 package com.learningJava.projects.knave;
 
+import java.util.Random;
+
 public class Knave {
     // this is a knave class, this represents the player's knave and all stats associated
-
     // TODO private int level (+ g&s)
     // TODO private int xp (+ g&s)
 
     // TODO private int array stats (+getters and setters)
-
     // TODO private int array randStats
 
     // TODO private enum Career that has a randCareer method
