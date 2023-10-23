@@ -1,34 +1,38 @@
 package com.learningJava.newStuff;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
+
+import org.jsoup.*;
+import org.jsoup.nodes.*;
+import org.jsoup.select.*;
+
+import java.io.*;
+import java.util.regex.*;
 
 public class WebScraper {
+    private static Pattern patternDomainName;
+    private Matcher matcher;
+    private static final String DOMAIN_NAME_PATTERN
+            = "([a-zA-Z0-9]([a-zA-Z0-9\\-]{0,61}[a-zA-Z0-9])?\\.)+[a-zA-Z]{2,6}";
+    static {
+        patternDomainName = Pattern.compile(DOMAIN_NAME_PATTERN);
+    }
     public static void main(String[] args) {
+        String url = "https://forecast.weather.gov/MapClick.php?lat=45.1089&lon=-93.3472";
+        // initializing the HTML Document page variable
         try {
+            Document doc = Jsoup.connect(url).get();
 
-            String url = "https://www.accuweather.com/en/us/minneapolis/55415/weather-forecast/348794";
-            URL obj = new URL(url);
-            HttpURLConnection con = (HttpURLConnection) obj.openConnection();
-// optional request header
-            con.setRequestProperty("User-Agent", "Mozilla/5.0");
-            int responseCode = con.getResponseCode();
-            System.out.println("Response code: " + responseCode);
-            BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
-            String inputLine;
-            StringBuilder response = new StringBuilder();
-            while ((inputLine = in.readLine()) != null) {
-                response.append(inputLine);
+            Elements fTemps = doc.getElementsByClass("myforecast-current-lrg");
+            Elements cTemps = doc.getElementsByClass("myforecast-current-sm");
+
+            for (Element fTemp :fTemps) {
+                System.out.println("Temp (F): " + fTemp.html());
             }
-            in.close();
-            String html = response.toString();
-            String start = "temp\">";
-            String end = "<";
-            System.out.println(html.substring(html.indexOf(start), html.indexOf(end)));
-        } catch (Exception e){
-            System.out.println(e);
+            for (Element cTemp :cTemps) {
+                System.out.println("Temp (C): " + cTemp.html());
+            }
+         } catch (IOException e) {
+            throw new RuntimeException(e);
         }
     }
 }
