@@ -17,6 +17,7 @@ public class WebScraper {
             Elements fTemps = doc.getElementsByClass("myforecast-current-lrg");
             Elements cTemps = doc.getElementsByClass("myforecast-current-sm");
 
+            System.out.println("Weather in Brooklyn Park, MN: ");
             for (Element fTemp :fTemps) {
                 System.out.println("Temp (F): " + fTemp.html());
             }
